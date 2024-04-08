@@ -12,3 +12,87 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.fontStyle .home {
+    color: brown;
+    font-size: 100px;
+}
+
+.responsive-web-design {
+    padding: 20px;
+    margin: 20px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+
+.responsive-web-design .heading {
+    font-size: 80px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.responsive-web-design .sub-heading {
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 600px){
+    .responsive-web-design {
+        padding: 10px;
+        margin: 10px;
+        background-color:blue;
+        border-radius: 5px;
+    }
+    
+    .responsive-web-design .heading {
+        font-size: 40px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    
+    .responsive-web-design .sub-heading {
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .responsive-web-design {
+        padding: 10px;
+        margin: 10px;
+        background-color:green;
+        border-radius: 5px;
+    }
+    
+    .responsive-web-design .heading {
+        font-size: 30px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    
+    .responsive-web-design .sub-heading {
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .responsive-web-design {
+        padding: 10px;
+        margin: 10px;
+        background-color:yellow;
+        border-radius: 5px;
+    }
+    
+    .responsive-web-design .heading {
+        font-size: 15px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    
+    .responsive-web-design .sub-heading {
+        font-size: 12px;
+        text-align: justify;
+    }
+}
